@@ -1,0 +1,19 @@
+# Sensitive files
+.env
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Dependency folders (general best practice)
+node_modules/
+vendor/
+
+# WordPress uploads (optional to ignore)
+wp-content/uploads/
