@@ -38,8 +38,8 @@ The project is intended for learning and demonstration purposes and shows how to
 1. Clone the repository:
 
 ```bash
-git clone <YOUR_REPO_URL>
-cd <YOUR_REPO_FOLDER>
+git clone git@github.com:behrouzRajaei/wordpress-docker.git
+cd wordpress-docker
 ```
 
 2. Copy the example env file to create your own .env:
@@ -69,10 +69,10 @@ And follow the WordPress installation steps.
 - Environment variables are defined in .env and used in docker-compose.yaml:
 
 ```
-- WORDPRESS_DB_HOST
-- WORDPRESS_DB_NAME
-- WORDPRESS_DB_USER
-- WORDPRESS_DB_PASSWORD
+WORDPRESS_DB_HOST
+WORDPRESS_DB_NAME
+WORDPRESS_DB_USER
+WORDPRESS_DB_PASSWORD
 ```
 
 - Database and WordPress content are persisted using Docker volumes:
